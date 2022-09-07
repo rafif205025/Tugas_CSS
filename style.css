@@ -1,0 +1,96 @@
+body{
+    background: #00ADB5;
+    color: #222831;
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 90%;
+    margin: auto;
+    height: 120px;
+    line-height: 120px;
+    background: #EEEEEE;
+    color: #222831;
+    text-align: center;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+    height: 420px;
+    padding: 0.1px;
+    background: #EEEEEE;
+    color: #222831;
+}
+
+.left{
+    width: 70%;
+    float: left;
+    margin: auto;
+    background: #EEEEEE;
+    height: 420px;
+}
+
+.right{
+    width: 30%;
+    float: left;
+    margin: auto;
+    background: #EEEEEE;
+    height: 420px;
+}
+
+.border{
+    border: 2px solid #222831;
+    margin-top: 1pc;
+    padding-bottom: 1pc;
+    padding-left: 2pc;
+    padding-right: 2pc;
+}
+
+.undercor{
+    text-decoration: none;
+}
+
+.footer{
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #EEEEEE;
+    color: #222831;
+}
+
+.menu{
+    background-color: #EEEEEE;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 auto;
+}
+
+.gap{
+    padding: 0 2pc;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li a{
+    float: left;
+    width: 70px;
+    display: block;
+    text-align: center;
+    color: #393E46;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: #00ADB5;
+    display: block;
+}
